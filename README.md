@@ -33,7 +33,9 @@ For this test, I used the original strategy with the TA filters and a SL-TP rati
 
 ![January's Returns](january.png)
 
-## future improvements
+You can notice a significant dip on Jan 27 with the news of Deepseek lol
+
+## Future Improvements
 
 I have one main issue with this and a lot of other strategies, and it's that they have too high of a correlation with the S&P 500.
 Though I'm no investment expert, the only reason I'm picking my own stocks is because I'm not going to accept the measly 8% return
