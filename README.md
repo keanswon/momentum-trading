@@ -27,6 +27,12 @@ bullish momentum. The run() function performs the backtest for however many week
 | `downlaodstockdata.py`           | Downloads price data of the S&P 500 from yfinance |
 | `trader.py`      | WIP outline for a program to place orders to alpacaapi - outline from chatgpt |
 
+## Results
+
+For this test, I used the original strategy with the TA filters and a SL-TP ratio. I believe it would have performed better over the past month if it re-selected stocks every week, but I can't complain about it. Take this with a grain of salt. There were many months where this strategy broke even or lost money, and a 5% return in January is abnormal. 
+
+![January's Returns](alpacaAPI Jan.png)
+
 ## future improvements
 
 I have one main issue with this and a lot of other strategies, and it's that they have too high of a correlation with the S&P 500.
