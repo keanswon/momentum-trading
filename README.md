@@ -2,7 +2,7 @@
 
 ## Overview
 
-Simple S&P momentum trading strategy inspired by algovibes (https://www.youtube.com/@Algovibes) and modified
+Simple momentum trading strategy inspired by algovibes (https://www.youtube.com/@Algovibes) and modified
 
 ## What I Added
 
