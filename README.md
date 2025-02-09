@@ -1,4 +1,4 @@
-# Auto Youtube Shorts Creator
+# Momentum Trading Strategy
 
 ## Overview
 
