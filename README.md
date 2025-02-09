@@ -2,11 +2,11 @@
 
 ## Overview
 
-Simple S&P momentum trading strategy taken from algovibes (https://www.youtube.com/@Algovibes) and modified
+Simple S&P momentum trading strategy inspired by algovibes (https://www.youtube.com/@Algovibes) and modified
 
 ## What I Added
 
-I took the original code and idea from algovibes youtube. The strategy is simple: take the biggest gainers in the S&P 500 over
+The original strategy is from algovibes on YouTube. It's pretty simple: take the biggest gainers in the S&P 500 over
 the past year and holding them for one month.
 
 I modified this strategy because I'm impatient. I do not want to wait an entire month, so I decided to change it to holding over
@@ -29,7 +29,7 @@ bullish momentum. The run() function performs the backtest for however many week
 
 ## Results
 
-For this test, I used the original strategy with the TA filters and a SL-TP ratio. I believe it would have performed better over the past month if it re-selected stocks every week, but I can't complain about it. Take this with a grain of salt. There were many months where this strategy broke even or lost money, and a 5% return in January is abnormal. 
+For this test, I used the original strategy with the TA filters and a SL-TP ratio. I didn't buy and sell stocks every week because I couldn't figure out how to make complex orders on alpaca api work with partial shares (and because I'm lazy) to automate buying / selling. I believe it would have performed better over the past month if it re-selected stocks every week, but I can't complain about it. Take this with a grain of salt. There were many months where this strategy broke even or lost money, and a 5% return in January is abnormal. From the backtesting, with the right numbers for a given number of weeks, this strategy is able to perform fairly well.
 
 ![January's Returns](january.png)
 
