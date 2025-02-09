@@ -31,7 +31,7 @@ bullish momentum. The run() function performs the backtest for however many week
 
 For this test, I used the original strategy with the TA filters and a SL-TP ratio. I believe it would have performed better over the past month if it re-selected stocks every week, but I can't complain about it. Take this with a grain of salt. There were many months where this strategy broke even or lost money, and a 5% return in January is abnormal. 
 
-![January's Returns](alpacaAPI Jan.png)
+![January's Returns](january.png)
 
 ## future improvements
 
