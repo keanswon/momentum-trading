@@ -1,7 +1,3 @@
-"""
-check chatgpt chat to see what this does
-"""
-
 import pandas as pd
 import numpy as np
 import os
