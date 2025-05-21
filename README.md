@@ -7,7 +7,7 @@ Simple momentum trading strategy inspired by algovibes (https://www.youtube.com/
 ## What I Added
 
 The original strategy is from algovibes on YouTube. It's pretty simple: take the biggest gainers in the S&P 500 over
-the past year and holding them for one month.
+the past year and hold them for one month.
 
 I modified this strategy because I'm impatient. I do not want to wait an entire month, so I decided to change it to holding over
 just one week. Another benefit of holding for one week is that the stock is less subject to after-hours fluctuation because we do
